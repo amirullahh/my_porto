@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amirullah Hidayat — DevOps & Cloud Engineering</title>
+  <meta name="description" content="Portofolio Amirullah Hidayat — Informatics Engineering student pivoting into DevOps & Cloud Engineering. Python, AWS, Docker, CI/CD & applied NLP. Jakarta, Indonesia.">
+  <meta property="og:title" content="Amirullah Hidayat — DevOps & Cloud Engineering">
+  <meta property="og:description" content="Python, AWS, Docker, CI/CD & applied NLP. Open to work.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/avatar.png">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%23070b08'/%3E%3Ctext x='20' y='68' font-family='monospace' font-size='52' fill='%233cf59b'%3E%3E_%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="grid-bg" aria-hidden="true"></div>
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <a href="#hero" class="logo">amir@cloud<span class="logo-sep">:</span>~<span class="logo-sep">$</span><span class="type-cursor">▊</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about"><span class="nav-num">01.</span>about</a>
+      <a href="#skills"><span class="nav-num">02.</span>skills</a>
+      <a href="#projects"><span class="nav-num">03.</span>projects</a>
+      <a href="#contact"><span class="nav-num">04.</span>contact</a>
+    </nav>
+    <div class="nav-right">
+      <a href="https://github.com/amirullahh" target="_blank" rel="noopener" class="icon-link" aria-label="GitHub">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.17c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.75 2.69 1.25 3.34.95.1-.74.4-1.25.72-1.54-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.16-1.18 3.16-1.18.63 1.59.24 2.76.12 3.05.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.66.41.35.77 1.05.77 2.12v3.15c0 .3.21.67.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+      </a>
+      <a href="#contact" class="hire-badge"><span class="pulse-dot"></span>open to work</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <div class="hero-inner">
+        <div class="hero-left">
+          <p class="hero-path reveal">// ~/jakarta, indonesia — devops &amp; cloud engineering</p>
+          <h1 class="hero-name reveal" style="--d:.08s">AMIRULLAH<br><span class="outline-text">HIDAYAT</span></h1>
+          <p class="type-line reveal" style="--d:.16s"><span class="prompt">$</span> <span id="typed"></span><span class="type-cursor" id="typedCursor">▊</span></p>
+          <p class="hero-desc reveal" style="--d:.24s">
+            Mahasiswa Teknik Informatika yang lagi serius <strong>pivot ke DevOps &amp; Cloud</strong> —
+            dibekali AWS Academy Cloud Architecting, project NLP yang beneran jalan,
+            dan 10+ tahun insting bisnis dari dunia sales.
+          </p>
+          <p class="hero-punch reveal" style="--d:.3s">simple person. <span class="accent">kompleksitasnya di sistem.</span></p>
+          <div class="cta-row reveal" style="--d:.38s">
+            <a href="#projects" class="btn btn-solid">./lihat-project</a>
+            <a href="https://github.com/amirullahh" target="_blank" rel="noopener" class="btn btn-ghost">github ↗</a>
+          </div>
+        </div>
+
+        <div class="hero-right reveal" style="--d:.2s">
+          <div class="terminal" id="terminal">
+            <div class="term-bar">
+              <span class="term-dot red"></span>
+              <span class="term-dot amber"></span>
+              <span class="term-dot green"></span>
+              <span class="term-title">amir@cloud: ~/portfolio — zsh</span>
+            </div>
+            <div class="term-body" id="termBody"></div>
+          </div>
+          <div class="hero-glow" aria-hidden="true"></div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-hint" aria-label="Scroll ke bawah">
+        <span class="scroll-hint-text">scroll</span>
+        <span class="scroll-hint-line"></span>
+      </a>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>AWS</span><i>//</i><span>Docker</span><i>//</i><span>Python</span><i>//</i><span>CI/CD</span><i>//</i><span>NLP</span><i>//</i><span>Linux</span><i>//</i><span>Node.js</span><i>//</i><span>MLflow</span><i>//</i><span>FastAPI</span><i>//</i><span>PostgreSQL</span><i>//</i><span>GitHub Actions</span><i>//</i><span>Vue 3</span><i>//</i><span>Next.js</span><i>//</i><span>Grafana</span><i>//</i>
+        <span>AWS</span><i>//</i><span>Docker</span><i>//</i><span>Python</span><i>//</i><span>CI/CD</span><i>//</i><span>NLP</span><i>//</i><span>Linux</span><i>//</i><span>Node.js</span><i>//</i><span>MLflow</span><i>//</i><span>FastAPI</span><i>//</i><span>PostgreSQL</span><i>//</i><span>GitHub Actions</span><i>//</i><span>Vue 3</span><i>//</i><span>Next.js</span><i>//</i><span>Grafana</span><i>//</i>
+      </div>
+    </div>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="section-head reveal">
+        <p class="cmd"><span class="prompt">$</span> whoami <span class="cmd-comment">// 01 — tentang gue</span></p>
+        <h2>Orangnya <span class="accent">simple</span>, sistemnya nggak.</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="reveal">Halo! Gue <strong>Amir</strong> — orang yang percaya sistem yang baik itu kayak tim yang baik: <em>reliable, terdokumentasi, dan gampang diajak kerja sama</em>. Saat ini gue kuliah Teknik Informatika di UBSI Jakarta sambil memperdalam jalur DevOps &amp; Cloud Engineering.</p>
+          <p class="reveal" style="--d:.08s">Perjalanan gue agak beda: sebelum full ke tech, gue ngabisin <strong>10+ tahun di sales &amp; business development</strong>. Dari sana gue bawa fondasi yang sekarang nempel di cara kerja gue — komunikasi yang jelas, dokumentasi rapi, delivery konsisten, dan tahan banting di bawah tekanan.</p>
+          <p class="reveal" style="--d:.16s">Di sisi teknis, gue build dengan <strong>Python, AWS, dan Docker</strong> — suka ngoprek pipeline CI/CD, MLOps, dan applied NLP: dari semantic job-matching sampai API chatbot multimodal. AWS Academy Cloud Architecting? Udah. Sertifikasi <strong>AWS Certified Cloud Practitioner</strong>? Juga udah di tangan.</p>
+          <p class="reveal" style="--d:.24s">Di luar itu, gue aktif ngulik ekosistem <strong>AI &amp; LLM tooling</strong> — agents, coding assistants, dan automation. Anggap aja ini laboratorium terbuka gue di GitHub.</p>
+        </div>
+        <aside class="about-file reveal" style="--d:.15s">
+          <div class="file-corners" aria-hidden="true"></div>
+          <div class="about-avatar">
+            <img src="assets/avatar.png" alt="Foto profil Amirullah Hidayat" loading="lazy">
+          </div>
+          <div class="facts">
+            <div class="fact"><span class="fact-key">name</span><span class="fact-val">Amirullah Hidayat</span></div>
+            <div class="fact"><span class="fact-key">based_in</span><span class="fact-val">Jakarta, Indonesia</span></div>
+            <div class="fact"><span class="fact-key">education</span><span class="fact-val">Teknik Informatika — UBSI</span></div>
+            <div class="fact"><span class="fact-key">focus</span><span class="fact-val">DevOps / Cloud / Applied NLP</span></div>
+            <div class="fact"><span class="fact-key">cert</span><span class="fact-val accent">AWS Certified Cloud Practitioner</span></div>
+            <div class="fact"><span class="fact-key">status</span><span class="fact-val"><span class="pulse-dot"></span>open_to_work</span></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section" id="skills">
+      <div class="section-head reveal">
+        <p class="cmd"><span class="prompt">$</span> ls ./skills <span class="cmd-comment">// 02 — senjata andalan</span></p>
+        <h2>Tech stack yang gue <span class="accent">mainin</span> tiap hari.</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <h3 class="skill-title"><span class="skill-prefix">cloud_devops/</span></h3>
+          <ul class="skill-list">
+            <li>AWS <span class="skill-note">EC2 · S3 · IAM</span></li>
+            <li>Docker &amp; Containers</li>
+            <li>GitHub Actions <span class="skill-note">CI/CD</span></li>
+            <li>Linux &amp; Bash</li>
+            <li>NGINX <span class="skill-note">ssl · rate limiting</span></li>
+            <li>Grafana · Prometheus</li>
+            <li>MLflow</li>
+          </ul>
+        </div>
+        <div class="skill-card reveal" style="--d:.08s">
+          <h3 class="skill-title"><span class="skill-prefix">programming/</span></h3>
+          <ul class="skill-list">
+            <li>Python</li>
+            <li>JavaScript / TypeScript</li>
+            <li>Node.js · Express</li>
+            <li>FastAPI</li>
+            <li>Vue 3 · Next.js</li>
+            <li>SQL <span class="skill-note">postgresql · sqlite</span></li>
+            <li>MongoDB</li>
+          </ul>
+        </div>
+        <div class="skill-card reveal" style="--d:.16s">
+          <h3 class="skill-title"><span class="skill-prefix">ai_data/</span></h3>
+          <ul class="skill-list">
+            <li>NLP <span class="skill-note">sentence transformers</span></li>
+            <li>Semantic Search / Embeddings</li>
+            <li>scikit-learn</li>
+            <li>Jupyter Notebook</li>
+            <li>pandas · NumPy</li>
+            <li>Gemini API</li>
+          </ul>
+        </div>
+        <div class="skill-card reveal" style="--d:.24s">
+          <h3 class="skill-title"><span class="skill-prefix">workflow/</span></h3>
+          <ul class="skill-list">
+            <li>Git &amp; GitHub</li>
+            <li>Clean Architecture</li>
+            <li>Testing &amp; Coverage</li>
+            <li>Technical Documentation</li>
+            <li>Kolaborasi lintas tim</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects">
+      <div class="section-head reveal">
+        <p class="cmd"><span class="prompt">$</span> ls ~/projects --sort=featured <span class="cmd-comment">// 03 — karya pilihan</span></p>
+        <h2>Project yang <span class="accent">nggak cuma jadi</span> — tapi jalan.</h2>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card featured reveal">
+          <div class="card-meta">
+            <span class="card-id">PRJ_001 // flagship</span>
+            <div class="card-links">
+              <a href="https://github.com/amirullahh/hirezy" target="_blank" rel="noopener" aria-label="Repo HIREZY di GitHub">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.17c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.75 2.69 1.25 3.34.95.1-.74.4-1.25.72-1.54-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.16-1.18 3.16-1.18.63 1.59.24 2.76.12 3.05.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.66.41.35.77 1.05.77 2.12v3.15c0 .3.21.67.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3>HIREZY <span class="card-flag">AI Recruitment Platform</span></h3>
+          <p>Platform rekrutmen &amp; talent analytics bertenaga NLP: <strong>CV ↔ job description matching</strong> pakai fine-tuned multilingual Bi-Encoder, semantic job recommendation, dan talent pool tracking. Skor kecocokan yang bisa dijelaskan (<em>explainable AI matching</em>), lengkap dengan observability Prometheus + Grafana dan experiment tracking MLflow.</p>
+          <div class="tags">
+            <span>Vue 3</span><span>FastAPI</span><span>SentenceTransformers</span><span>MongoDB</span><span>MLflow</span><span>Grafana</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" style="--d:.08s">
+          <div class="card-meta">
+            <span class="card-id">PRJ_002</span>
+            <div class="card-links">
+              <span class="card-star" title="1 star di GitHub">★ 1</span>
+              <a href="https://github.com/amirullahh/SmartRecruit_AI_V2" target="_blank" rel="noopener" aria-label="Repo SmartRecruit AI v2 di GitHub">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.17c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.75 2.69 1.25 3.34.95.1-.74.4-1.25.72-1.54-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.16-1.18 3.16-1.18.63 1.59.24 2.76.12 3.05.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.66.41.35.77 1.05.77 2.12v3.15c0 .3.21.67.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3>SmartRecruit AI v2</h3>
+          <p>Semantic resume-to-job matching pakai SBERT (384-dim vectors). Klasifikasi role dengan <strong>akurasi 97,75%</strong>, dipadankan ke 20.000+ job postings, plus mode batch buat HR: ratusan CV diranking dalam hitungan detik.</p>
+          <div class="tags"><span>Python</span><span>SBERT</span><span>scikit-learn</span><span>Streamlit</span></div>
+        </article>
+
+        <article class="project-card reveal" style="--d:.16s">
+          <div class="card-meta">
+            <span class="card-id">PRJ_003</span>
+            <div class="card-links">
+              <a href="https://github.com/amirullahh/sm-sport" target="_blank" rel="noopener" aria-label="Repo SM Sport Center di GitHub">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.17c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.75 2.69 1.25 3.34.95.1-.74.4-1.25.72-1.54-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.16-1.18 3.16-1.18.63 1.59.24 2.76.12 3.05.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.66.41.35.77 1.05.77 2.12v3.15c0 .3.21.67.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3>SM Sport Center</h3>
+          <p>Sistem reservasi lapangan futsal &amp; badminton online: booking wizard 3 langkah, cek ketersediaan real-time, riwayat + pembatalan reservasi, dan panel admin — dengan CI pipeline aktif.</p>
+          <div class="tags"><span>Next.js 16</span><span>TypeScript</span><span>Tailwind</span><span>SQLite</span></div>
+        </article>
+
+        <article class="project-card reveal" style="--d:.08s">
+          <div class="card-meta">
+            <span class="card-id">PRJ_004</span>
+            <div class="card-links">
+              <a href="https://github.com/amirullahh/forum-api" target="_blank" rel="noopener" aria-label="Repo Forum API di GitHub">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.17c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.75 2.69 1.25 3.34.95.1-.74.4-1.25.72-1.54-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.16-1.18 3.16-1.18.63 1.59.24 2.76.12 3.05.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.66.41.35.77 1.05.77 2.12v3.15c0 .3.21.67.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3>Forum API</h3>
+          <p>RESTful API forum dengan auth JWT (access + refresh), thread/comment/reply/like, <strong>100% test coverage</strong>, rate limiting di level NGINX, dan pipeline CI/CD GitHub Actions — semua dibangun di atas Clean Architecture.</p>
+          <div class="tags"><span>Node.js</span><span>Express</span><span>PostgreSQL</span><span>GitHub Actions</span></div>
+        </article>
+
+        <article class="project-card reveal" style="--d:.16s">
+          <div class="card-meta">
+            <span class="card-id">PRJ_005</span>
+            <div class="card-links">
+              <a href="https://github.com/amirullahh/Workflow-CI" target="_blank" rel="noopener" aria-label="Repo Workflow-CI di GitHub">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.17c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.75 2.69 1.25 3.34.95.1-.74.4-1.25.72-1.54-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.16-1.18 3.16-1.18.63 1.59.24 2.76.12 3.05.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.66.41.35.77 1.05.77 2.12v3.15c0 .3.21.67.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3>Workflow-CI <span class="card-flag">MLOps</span></h3>
+          <p>Pipeline CI/CD untuk model machine learning: auto-retrain prediksi harga rumah via MLflow Project + GitHub Actions, artifact tracking, Docker image otomatis ke Docker Hub, dan versioning lewat MLflow Model Registry.</p>
+          <div class="tags"><span>MLflow</span><span>Python</span><span>Docker</span><span>GitHub Actions</span></div>
+        </article>
+
+        <article class="project-card reveal" style="--d:.24s">
+          <div class="card-meta">
+            <span class="card-id">PRJ_006</span>
+            <div class="card-links">
+              <a href="https://github.com/amirullahh/gemini-flash-api-server" target="_blank" rel="noopener" aria-label="Repo Gemini Flash API Server di GitHub">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.17c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.75 2.69 1.25 3.34.95.1-.74.4-1.25.72-1.54-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.16-1.18 3.16-1.18.63 1.59.24 2.76.12 3.05.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.66.41.35.77 1.05.77 2.12v3.15c0 .3.21.67.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3>Gemini Flash API Server</h3>
+          <p>Backend multimodal untuk Google Gemini 1.5 Flash: generate teks, deskripsi gambar, ringkasan dokumen (PDF/TXT), sampai transkripsi audio — semua lewat REST API Node.js yang simpel.</p>
+          <div class="tags"><span>Node.js</span><span>Express</span><span>Gemini API</span></div>
+        </article>
+        <article class="project-card cta-card reveal" style="--d:.32s">
+          <div class="card-meta">
+            <span class="card-id">PRJ_++ // gudang</span>
+          </div>
+          <h3>~/projects --all</h3>
+          <p>Masih banyak eksperimen di gudang: mental-health web app, LMS, chatbot Gemini, cipher tools, sampai koleksi AI agent tooling. Semua terbuka di GitHub.</p>
+          <div class="tags"><span>50+ repos</span><span>open source</span><span>selalu eksperimen</span></div>
+          <a class="cta-card-link" href="https://github.com/amirullahh?tab=repositories" target="_blank" rel="noopener">buka gudangnya →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ STATS ============ -->
+    <section class="section" id="stats">
+      <div class="section-head reveal">
+        <p class="cmd"><span class="prompt">$</span> uptime <span class="cmd-comment">// angka yang jujur, bukan vanity</span></p>
+      </div>
+      <div class="stats-grid">
+        <div class="stat reveal"><span class="stat-num">50<span class="stat-plus">+</span></span><span class="stat-label">repos publik di GitHub</span></div>
+        <div class="stat reveal" style="--d:.08s"><span class="stat-num">97<span class="stat-plus">,75%</span></span><span class="stat-label">akurasi model klasifikasi SBERT</span></div>
+        <div class="stat reveal" style="--d:.16s"><span class="stat-num">10<span class="stat-plus">+</span></span><span class="stat-label">tahun pengalaman sales &amp; bisnis</span></div>
+        <div class="stat reveal" style="--d:.24s"><span class="stat-num">AWS<span class="stat-plus"> ✓</span></span><span class="stat-label">Certified Cloud Practitioner</span></div>
+      </div>
+      <div class="lang-block reveal" style="--d:.3s">
+        <p class="lang-caption">distribusi bahasa — 14 repo orisinal <span class="cmd-comment">// sisanya: lab eksperimen AI tooling</span></p>
+        <div class="lang-bar" role="img" aria-label="Distribusi bahasa: JavaScript 43%, Jupyter Notebook 29%, Python 14%, TypeScript 7%, CSS 7%">
+          <span class="lang-seg" style="--w:43%; --c:#f1e05a"></span>
+          <span class="lang-seg" style="--w:29%; --c:#DA5B0B"></span>
+          <span class="lang-seg" style="--w:14%; --c:#3572A5"></span>
+          <span class="lang-seg" style="--w:7%; --c:#3178c6"></span>
+          <span class="lang-seg" style="--w:7%; --c:#a371f7"></span>
+        </div>
+        <div class="lang-legend">
+          <span><i style="background:#f1e05a"></i>JavaScript 43%</span>
+          <span><i style="background:#DA5B0B"></i>Jupyter Notebook 29%</span>
+          <span><i style="background:#3572A5"></i>Python 14%</span>
+          <span><i style="background:#3178c6"></i>TypeScript 7%</span>
+          <span><i style="background:#a371f7"></i>CSS 7%</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="section-head reveal">
+        <p class="cmd"><span class="prompt">$</span> mail --open-connection <span class="cmd-comment">// 04 — kontak</span></p>
+        <h2 class="contact-title">Punya sistem yang perlu<br><span class="accent">dibangun, diotomasi, atau di-cloud-kan?</span></h2>
+      </div>
+      <div class="contact-actions reveal" style="--d:.1s">
+        <a class="btn btn-solid btn-big" href="mailto:amirullahhidayat12@gmail.com">mail -s "halo amir" ✉</a>
+        <button class="btn btn-ghost btn-big" id="copyEmail" data-email="amirullahhidayat12@gmail.com">copy email <span class="copy-icon">⧉</span></button>
+      </div>
+      <div class="contact-links reveal" style="--d:.18s">
+        <a href="https://github.com/amirullahh" target="_blank" rel="noopener">github/amirullahh ↗</a>
+        <span class="contact-sep">·</span>
+        <a href="https://www.linkedin.com/in/amir-399b0057/" target="_blank" rel="noopener">linkedin/amir-399b0057 ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <p><span class="prompt">$</span> echo "© <span id="year">2026</span> amirullah hidayat" <span class="cmd-comment">— handcrafted, bukan template. v1.0.0</span></p>
+    <a href="#hero" class="back-top">cd ~ <span>↑</span></a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
